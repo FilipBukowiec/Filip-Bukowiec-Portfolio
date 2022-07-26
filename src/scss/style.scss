@@ -1,0 +1,73 @@
+@import "_variables.scss";
+
+body {
+  margin-top: 100px;
+  background-color: #000000;
+}
+
+h1,
+h2 {
+  color: white;
+}
+
+h4 {
+  color: rgb(40, 182, 182);
+}
+
+.container {
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  background-color: rgb(27, 27, 27);
+  width: 80%;
+}
+
+.navi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 6%;
+  height: 90%;
+  background-color: transparent;
+  gap: 25px;
+}
+
+.navi i {
+  font-size: 30px;
+  color: rgb(133, 139, 139);
+}
+
+.navi i:hover {
+  color: rgb(40, 182, 182);
+  transition: 0.5s;
+  font-size: 35px;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 44%;
+  height: 600px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUA_63fKBUbqIQZPYbKrwizBKfeVPYZ5X46w&usqp=CAU");
+  background-size:cover;
+  padding-bottom: 20px;
+}
+
+.person i {
+  color: white;
+  
+}
+
+.content {
+  overflow: auto;
+  width: 50%;
+  height: 100%;
+  background-color: rgb(27, 27, 27);
+  padding: 25px;
+  text-align: justify;
+}

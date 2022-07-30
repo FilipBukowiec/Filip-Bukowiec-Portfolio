@@ -1,0 +1,102 @@
+AboutMe.addEventListener("click", () => {
+
+    Content.innerHTML = `
+              `
+  }
+  
+  
+  
+  );
+  
+  Contact.addEventListener("click", () => {
+    Content.innerHTML = `
+            
+              <h1>Contact</h1>
+              <h4>wiekdjkfgdkghfdcvcxvcxvxcvvccxvxcvxcvcxvxcvxcvxcvgfdgfdg</h4>
+  
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam a
+                repudiandae molestias, voluptates repellendus eum nemo? Odio,
+                vitae accusantium. Nihil blanditiis fugiat doloremque ipsa.
+                Dolorem accusantium aperiam eaque dolor blanditiis? A asperiores
+                ea eaque aperiam fuga assumenda soluta similique sed! Earum
+                placeat nulla natus accusantium totam corrupti maiores, dolore
+                explicabo eveniet accusamus sed eos nisi blanditiis ratione in
+                doloremque quod? Quidem fugit sint labloreore? Ae porro
+                necessitatibus officia doloribus vero sint molestias accusantium
+                aliquid ipsa tempore maxime assumenda. Dolorum eius quas rem
+                voluptates optio voluptate. Voluptate ut nesciunt veritatis eaque
+                repellat, dolorum rerum officiis ducimus, ipsum assumenda
+                voluptatibus neque quos. Quidem optio veniam nisi dolor fuga,
+                asperiores non praesentium tempore delectus, pariatur dolorem
+                necessitatibus ab. Optio tempore ipsa nulla beatae cumque ad dicta
+                nemo culpa! Iusto consequuntur in sed dicta repellat doloribus
+                placeat perspiciatis tempore, praesentium ratione natus quo
+                consequatur officia, dolorem assumenda vitae necessitatibus!
+              </p>`
+  });
+  
+  
+  Contact.addEventListener("click", () => {
+    Content.innerHTML = `
+            
+              <h1>Contact</h1>
+              <h4>wiekdjkfgdkghfdcvcxvcxvxcvvccxvxcvxcvcxvxcvxcvxcvgfdgfdg</h4>
+  
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam a
+                repudiandae molestias, voluptates repellendus eum nemo? Odio,
+                vitae accusantium. Nihil blanditiis fugiat doloremque ipsa.
+                Dolorem accusantium aperiam eaque dolor blanditiis? A asperiores
+                ea eaque aperiam fuga assumenda soluta similique sed! Earum
+                placeat nulla natus accusantium totam corrupti maiores, dolore
+                explicabo eveniet accusamus sed eos nisi blanditiis ratione in
+                doloremque quod? Quidem fugit sint labloreore? Ae porro
+                necessitatibus officia doloribus vero sint molestias accusantium
+                aliquid ipsa tempore maxime assumenda. Dolorum eius quas rem
+                voluptates optio voluptate. Voluptate ut nesciunt veritatis eaque
+                repellat, dolorum rerum officiis ducimus, ipsum assumenda
+                voluptatibus neque quos. Quidem optio veniam nisi dolor fuga,
+                asperiores non praesentium tempore delectus, pariatur dolorem
+                necessitatibus ab. Optio tempore ipsa nulla beatae cumque ad dicta
+                nemo culpa! Iusto consequuntur in sed dicta repellat doloribus
+                placeat perspiciatis tempore, praesentium ratione natus quo
+                consequatur officia, dolorem assumenda vitae necessitatibus!
+              </p>`
+  });
+  
+  Skills.addEventListener("click", () => {
+    Content.innerHTML = `
+            
+              <h1>Skills</h1>
+              <h4>Umiejętności</h4>
+  <hr>
+  
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam a
+                repudiandae molestias, voluptates repellendus eum nemo? Odio,
+                vitae accusantium. Nihil blanditiis fugiat doloremque ipsa.
+                D</p>
+  
+  
+                <span class="contentSkills">
+              <i class="bi bi-filetype-html"></i><i>85%</i>
+            </span>
+            <span class="total"><hr class="hrhtml" /></span>
+  
+  
+      
+      
+            <span class="contentSkills">
+              <i class="bi bi-filetype-css"></i>
+              <i>85%</i>
+            </span>
+            <span class="total"><hr class="hrcss" /></span>
+      
+      
+            <span class="contentSkills">
+            <i class="bi bi-filetype-js"></i>
+              <i>50%</i>
+            </span>
+            <span class="total"><hr class="hrjs" /></span>`
+  });

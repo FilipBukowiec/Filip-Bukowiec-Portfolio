@@ -1,0 +1,42 @@
+.work {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .workCard {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    opacity: 0.2;
+    width: 150px;
+    height: 200px;
+    transition-property: all;
+    transition-duration: 0.4s;
+
+ 
+  }
+  
+  .workCard:hover {
+    opacity: 1;
+    transform: translateY(-10px);
+    transition: 0.4s;
+    box-shadow: 0 0 10px 1px $textcolor;
+  }
+  
+
+  .work1{
+    background-image: url("../../img//works/work1.jpg");
+  }
+
+  .work2{
+    background-image: url("../../img//works/work2.jpg");
+  }
+  .work3{
+    background-image: url("../../img//works/work3.jpg");
+  }
+
+

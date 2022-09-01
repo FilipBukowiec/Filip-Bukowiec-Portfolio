@@ -1,0 +1,109 @@
+.skile {
+  padding: 20px;
+  width: 30%;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.contentSkills {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.total {
+  padding: 0;
+  display: flex;
+  width: 100%;
+  height: 10px;
+  background-color: rgb(127, 123, 123);
+}
+
+.hrhtml {
+  width: $htmlskill;
+  margin: 0;
+  height: 10px;
+  background-color: $active;
+  border: none;
+  animation: linehtml 2s;
+
+}
+
+@keyframes linehtml {
+  0% {
+    width: 0%;
+}
+100% {
+    width: $htmlskill;
+}
+}
+
+
+
+
+.hrcss {
+  margin: 0;
+  width: $cssskill;
+  height: 10px;
+  background-color: $active;
+  border: none;
+  animation: linecss 2s;
+}
+
+@keyframes linecss {
+  0% {
+    width: 0%;
+}
+100% {
+    width: $cssskill;
+}
+}
+
+
+.hrjs {
+  margin: 0;
+  width: $jsskill;
+  height: 10px;
+  background-color: $active;
+  border: none;
+  animation: linejs 2s;
+}
+
+@keyframes linejs {
+  0% {
+    width: 0%;
+}
+100% {
+    width: $jsskill;
+}
+}
+
+.hrpsd {
+  margin: 0;
+  width: $psdskill;
+  height: 10px;
+  background-color: $active;
+  border: none;
+  animation: linepsd 2s;
+
+}
+
+@keyframes linepsd {
+  0% {
+    width: 0%;
+}
+100% {
+    width: $psdskill;
+}
+}
+
+.contentSkills i {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+hr {
+  display: flex;
+  width: 100%;
+}

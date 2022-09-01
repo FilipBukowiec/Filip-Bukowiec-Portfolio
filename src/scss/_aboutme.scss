@@ -1,0 +1,84 @@
+.about_me {
+  text-align: justify;
+}
+
+#calmcontainer {
+  background-image: url("../../img/kc.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: $textcolor;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+#flip {
+  height: 50px;
+  overflow: hidden;
+}
+
+#flip > div > div {
+  padding: 4px 12px;
+  height: 45px;
+  align-items: center;
+  margin-bottom: 45px;
+  display: inline-block;
+}
+
+#flip div:first-child {
+  animation: show 5s linear infinite;
+}
+
+div .l1 {
+  background-color: $textcolor;
+  color: #fff;
+}
+
+div .l2 {
+  background-color: #fff;
+  color: $active;
+}
+
+div .l3 {
+  background-color: $active;
+  color: #fff;
+}
+
+@keyframes show {
+  0% {
+    margin-top: -270px;
+  }
+  5% {
+    margin-top: -180px;
+  }
+  33% {
+    margin-top: -180px;
+  }
+  38% {
+    margin-top: -90px;
+  }
+  66% {
+    margin-top: -90px;
+  }
+  71% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -270px;
+  }
+}
+
+//   p {
+//     position:fixed;
+//     width:100%;
+//     bottom:30px;
+//     font-size:12px;
+//     color:rgb(7, 7, 7);
+//     margin-top:200px;
+//   }

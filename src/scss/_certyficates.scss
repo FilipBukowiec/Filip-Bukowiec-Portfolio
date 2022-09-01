@@ -1,0 +1,110 @@
+
+.cert {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.certCard {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-position: bottom;
+  opacity: 0.3;
+  width: 220px;
+  height: 150px;
+  border-radius: 5%;
+  transition-property: all;
+  transition-duration: 0.4s;
+}
+
+.certCard:hover {
+  opacity: 1;
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px 1px $textcolor;
+}
+
+.titleCard {
+  text-align: center;
+  font-size: 15px;
+  border-radius: 3%;
+  position: absolute;
+  bottom: 10px;
+  opacity: 0.8;
+  width: 90%;
+  background-color: grey;
+}
+
+.titleCard:hover {
+  transition: 0.4s;
+}
+
+
+
+.modal {
+  position: fixed;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: black;
+  box-shadow: 0px 5px 15px 1px rgb(23, 23, 23);
+  width: 700px;
+  height: 491px;
+  background-position: center;
+  background-repeat:inherit;
+  box-shadow: 0px 5px 15px 1px rgb(23, 23, 23);
+  // border: 10px solid $textcolor;
+
+
+  
+}
+
+
+
+
+.btnclose {
+  font-weight: bold;
+  font-size: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: $active;
+  border-radius: 4px;
+  background-color: white;
+  border: 2px solid $active;
+}
+
+
+.btnclose:hover {
+  font-weight: bold;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  border-radius: 4px;
+  background-color: $active;
+  border: 2px solid $active;
+  transition: 0.4s;
+}
+
+
+
+
+.modal.photocert1{
+  background-image: url(../../img/certificates/api1.jpg);
+}
+.modal.photocert2{
+  background-image: url(../../img/certificates/api2.jpg);
+}
+.modal.photocert3{
+  background-image: url(../../img/certificates/cosoon.png);
+  background-color: #000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+

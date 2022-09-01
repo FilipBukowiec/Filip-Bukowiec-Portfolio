@@ -1,0 +1,17 @@
+
+
+.msg {
+  display: flex;
+  font-size: 25vh;
+  color: $textcolor;
+  transition-property: color;
+  transition-duration: 0.9s;
+  margin: 0 auto;
+}
+
+
+.msg:hover {
+  color: $active;
+}
+
+

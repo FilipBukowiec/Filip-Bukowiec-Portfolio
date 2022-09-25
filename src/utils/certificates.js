@@ -6,15 +6,15 @@ export const Certificates = function () {
 <hr>
 <div class="cert" id="Cert">
 <div class="certCard cert1"  id="cert1">
-<img src="../../img/certificates/api1-min.jpg">
+<img src="./img/certificates/api1-min.jpg">
   <div class="titleCard">Aplikacje internetowe poziom podstawowy</div>
 </div>
 <div class="certCard cert2" id="cert2">
-<img src="../../img/certificates/api2-min.jpg">
+<img src="./img/certificates/api2-min.jpg">
   <div class="titleCard">Aplikacje internetowe poziom średniozaawansowany</div>
 </div>
 <div class="certCard cert3" id="cert3">
-<img src="../../img/certificates/api3-min.jpg">
+<img src="./img/certificates/api3-min.jpg">
   <div class="titleCard">Aplikacje internetowe poziom zaawansowany</div>
 </div>
 

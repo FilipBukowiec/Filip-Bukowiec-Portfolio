@@ -14,7 +14,7 @@ export const Certificates = function () {
   <div class="titleCard">Aplikacje internetowe poziom średniozaawansowany</div>
 </div>
 <div class="certCard cert3" id="cert3">
-<img src="../../img/certificates/cosoon-min.png">
+<img src="../../img/certificates/api3-min.jpg">
   <div class="titleCard">Aplikacje internetowe poziom zaawansowany</div>
 </div>
 

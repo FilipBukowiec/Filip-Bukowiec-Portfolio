@@ -6,6 +6,7 @@ export const MyWorks = function () {
 <div class="workCard work1"></div>
 <div class="workCard work2"></div>
 <div class="workCard work3"></div>
+<div class="workCard work4"></div>
 
 
 </div>
@@ -26,6 +27,11 @@ export const MyWorks = function () {
   const work3 = document.querySelectorAll('.work3')
   Array.from(work3).forEach((www3) => {
     www3.addEventListener("click", () => window.open("https://filipbukowiec.github.io/Egzamin-API9-Filip-Bukowiec/", "_blank"));
+  });
+
+  const work4 = document.querySelectorAll('.work4')
+  Array.from(work4).forEach((www4) => {
+    www4.addEventListener("click", () => window.open("https://filipbukowiec.github.io/interactive-card-details-form-main/", "_blank"));
   });
 }
 

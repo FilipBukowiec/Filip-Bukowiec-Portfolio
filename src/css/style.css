@@ -330,6 +330,10 @@ hr {
   background-image: url("../../img//works/work3.jpg");
 }
 
+.work4 {
+  background-image: url("../../img//works/work4.jpg");
+}
+
 .msg {
   display: flex;
   font-size: 25vh;
